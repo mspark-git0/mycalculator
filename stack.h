@@ -9,6 +9,7 @@ int top;
 int size;
 } Stack;
 
+extern int new_variable;
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
 bool is_empty(Stack *s);
